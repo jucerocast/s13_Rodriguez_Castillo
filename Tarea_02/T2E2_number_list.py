@@ -1,3 +1,18 @@
+"""
+Date:       2021-11-17
+Authors:    Julio Cesar Rodriguez Castillo
+File:       
+Brief:      
+Score:      80
+Version:    1.1.1
+Fixes:      - Falto el encabezado (docstring)
+            
+            - PEP8 recomienda añadir un espacio en blanco después del
+                carácter de almohadilla '#' de los comentarios
+            
+            - El paso 4 para ordenar esta comentado
+"""
+
 if __name__ == '__main__':
     Numeros = input('Escribe una serie de números: ').split(' ')
     #Imprimir elementos y tipo de lista
