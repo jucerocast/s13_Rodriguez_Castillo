@@ -1,3 +1,22 @@
+"""
+Date:       2021-11-19
+Authors:    Julio Cesar Rodriguez Castillo
+File:
+Brief:
+Score:      80 (75)
+Version:    1.1.1
+Fixes:      * La funciones se debe declarar antes del la condicion
+                de if __name__ == '__main__':
+
+            - [20] PEP8 recomienda añadir un espacio en blanco después del
+                carácter de coma ','
+
+            - [5] No tiene docstring el archivo (encabezado)
+
+            * En los return no hace falta paréntesis
+"""
+
+
 if __name__ == '__main__':
     #función de suma
     def fun_suma(x,y):
