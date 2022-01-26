@@ -1,3 +1,25 @@
+"""
+Date:       2021-11-19
+Authors:    Julio Cesar Rodriguez Castillo
+File:
+Brief:
+Score:      80 (65)
+Version:    0.1.1
+Fixes:      * Las funciones se deben declarar antes del la condicion
+                de if __name__ == '__main__':
+
+            - [10] PEP8 recomienda que cada declaración de función debe
+                tener 2 lineas en blanco arriba y abajo, si se les agrega
+                un comentario arriba entonces las 2 lineas en blanco deben
+                estar encima del comentario.
+
+            - [20] PEP8 recomienda añadir un espacio en blanco después del
+                carácter de coma ','
+
+            - [5] No tiene docstring el archivo (encabezado)
+"""
+
+
 if __name__ == '__main__':
     #Funcion de conversión centígrados a fahrenheit
     def funcion_cenfa(x):
