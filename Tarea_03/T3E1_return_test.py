@@ -1,19 +1,23 @@
 """
 Date:       2021-11-19
 Authors:    Julio Cesar Rodriguez Castillo
-File:       
-Brief:      
-Score:      45
-Version:    0.1.1
-Fixes:      - La funcion se debe declarar antes del la condicion
+File:
+Brief:
+Score:      80
+Version:    1.1.1
+Fixes:      * La funcion se debe declarar antes del la condicion
                 de if __name__ == '__main__':
+                por lo mismo hay un warning con la variable numero
 
-            - No puedes asignar a la variable numero el resultado
-                de print porque print no retorna nada
+            - [5]  No puedes asignar a la variable numero el resultado
+                de print porque print no retorna nada.
 
-            - [50] El programa no funciona
-            
             - [5] No tiene docstring el archivo (encabezado)
+            
+            - [10] Si bien en la terminal hace lo que se pide,
+                la funcion no debe llamarse a si misma, a eso
+                se le llama recursividad, pero en este caso
+                no es lo que se solicito.
 """
 
 
